@@ -36,3 +36,9 @@ if uploaded_file is not None:
         prompt_parts = ["이미지의 물건을 다양한 용도를 제시해줘. 가장 기본적인 용도부터, 정말 이색적인 사용처도 제시해줘\n\n", image_parts[0], "\n\n"]
         response = model.generate_content(prompt_parts)
         st.write(response.text)
+
+
+
+
+
+
